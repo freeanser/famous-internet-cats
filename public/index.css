@@ -18,6 +18,23 @@ body {
   min-height: 100dvh;
 }
 
+.skip-link {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateY(-100%);
+
+  background: blue;
+
+  color: white;
+
+  padding: 0.5rem;
+}
+
+.skip-link:focus {
+  transform: translateY(0%);
+}
+
 header {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
