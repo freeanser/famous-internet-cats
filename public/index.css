@@ -68,6 +68,16 @@ header {
   text-align: center;
 }
 
+.hamburger-button {
+  display: none;
+
+  background: none;
+
+  border: none;
+
+  font-size: 2rem;
+  cursor: pointer;
+}
 
 .menu {
   grid-column: 1 / 13;
@@ -158,4 +168,81 @@ footer a {
   text-decoration: none;
   text-decoration: underline;
   color: blue;
+}
+
+@media (max-width: 44rem) {
+  header {
+    padding: 0rem;
+  }
+
+  .menu {
+    text-align: left;
+    position: relative;
+  }
+
+  .hamburger-button {
+    display: block;
+    position: absolute;
+    right: 1rem;
+    transform: translateY(-100%);
+  }
+
+  .menu-list {
+    display: none;
+    flex-direction: column;
+
+    position: absolute;
+    right: 0;
+    top: 100%;
+
+    background-color: burlywood;
+  }
+
+  .menu-list.active {
+    display: flex;
+  }
+
+  .menu-list li {
+    margin: 0.5rem;
+  }
+
+  main {
+    padding: 0rem;
+  }
+
+  .content-box {
+    display: block;
+    text-align: left;
+
+    margin: 0rem;
+  }
+
+  .first-content {
+    border-bottom: 0;
+  }
+
+  .first-content .image-container img {
+    float: right;
+
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .second-content .image-container img {
+    float: left;
+
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding: 0.5rem;
+  }
+
+  footer a {
+    margin-bottom: 0.5rem;
+  }
 }
