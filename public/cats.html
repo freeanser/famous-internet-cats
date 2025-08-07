@@ -10,6 +10,7 @@
 </head>
 
 <body>
+  <a class="skip-link" href="#main">Skip to Content</a>
   <header>
     <div class="header-container">
       <a href="/" class="logo-container">
@@ -86,6 +87,34 @@
       </div>
     </div>
   </main>
+
+  <!-- Modal -->
+  <dialog id="subscribe-modal">
+    <form id="subscribe-form" method="POST" action="/subscribe">
+      <h2>Subscribe to the Latest Mews!</h2>
+
+      <div class="form-group">
+        <label for="email">Email: <span class="required-indicator">* required</span></label>
+        <input type="text" id="email" name="email" aria-required="true" aria-invalid="false"
+          aria-errormessage="email-error">
+        <span class="error-message" id="email-error" role="alert"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="confirm-email">Confirm Email: <span class="required-indicator">* required</span></label>
+        <input type="text" id="confirm-email" name="confirm-email" aria-required="true" aria-invalid="false"
+          aria-errormessage="confirm-error">
+        <span class="error-message" id="confirm-error" role="alert"></span>
+      </div>
+
+      <div class="modal-buttons">
+        <button type="submit" id="submit-btn" aria-label="Subscribe and submit the form">Subscribe</button>
+        <button type="button" id="cancel-btn" aria-label="Cancel subscription">Cancel</button>
+      </div>
+
+    </form>
+  </dialog>
+
 
   <footer>
     <a href="privacy.html">Privacy Policy</a>
