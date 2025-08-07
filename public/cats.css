@@ -278,3 +278,75 @@ input.error {
 
   font-size: 1.2rem;
 }
+
+
+@media (max-width: 44rem) {
+  header {
+    padding: 0rem;
+  }
+
+  .menu {
+    text-align: left;
+    position: relative;
+  }
+
+  .hamburger-button {
+    display: block;
+    position: absolute;
+    right: 1rem;
+    transform: translateY(-100%);
+  }
+
+  .menu-list {
+    display: none;
+    flex-direction: column;
+
+    position: absolute;
+    right: 0;
+    top: 100%;
+
+    background-color: burlywood;
+  }
+
+  .menu-list.active {
+    display: flex;
+  }
+
+  .menu-list li {
+    margin: 0.5rem;
+  }
+
+  .cats-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .cat-card {
+    max-width: 100%;
+  }
+
+  .cat-card h2 {
+    margin-top: 0;
+
+    color: black;
+
+    text-align: left;
+  }
+
+  .cat-card img {
+    display: block;
+
+    margin: 0.5rem;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding: 0.5rem;
+  }
+
+  footer a {
+    margin-bottom: 0.5rem;
+  }
+
+}
