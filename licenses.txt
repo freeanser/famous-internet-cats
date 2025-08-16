@@ -1,0 +1,44 @@
+License Information: https://github.com/google/material-design-icons/blob/master/LICENSE
+
+Unsplash Image:
+
+Photographer: Raoul Droog
+Filename: Russian blue cat wearing yellow sunglasses
+URL: https://unsplash.com/photos/yMSecCHsIBc
+License: https://unsplash.com/license
+
+Photographer: Dominic Sansotta
+Filename: gray cat standing near wall snow cat
+URL: https://unsplash.com/photos/gray-cat-standing-near-wall-ITQwhPIH6rw?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash
+License: https://unsplash.com/license
+
+
+Photographer: Jae Park
+Filename: brown tabby cat bean the cat
+URL: https://unsplash.com/photos/brown-tabby-cat-7GX5aICb5i4
+License: https://unsplash.com/license
+
+Photographer: Alexander
+Filename: brown tabby cat on white stairs Larry
+URL: https://unsplash.com/photos/brown-tabby-cat-on-white-stairs-mJaD10XeD7w
+License: https://unsplash.com/license
+
+Photographer: Timur M
+Filename: white and gray kitten on bed
+URL: https://unsplash.com/photos/white-and-gray-kitten-on-bed-SAKLELG-pO8
+License: https://unsplash.com/license
+
+Photographer: Dhaya Eddine Bentaleb
+Filename: orange tabby cat on black and gray ground Golden cat
+URL: https://unsplash.com/photos/orange-tabby-cat-on-black-and-gray-ground-xnyfMfMM6Fk
+License: https://unsplash.com/license
+
+Photographer: Amber Kipp
+Filename: selective focus photography of orange and white cat on brown table
+URL: https://unsplash.com/photos/selective-focus-photography-of-orange-and-white-cat-on-brown-table-75715CVEJhI
+License: https://unsplash.com/license
+
+Photographer: The Lucky Neko
+Filename: three assorted-color kittens
+URL: https://unsplash.com/photos/three-assorted-color-kittens-rplhB9mYF48
+License: https://unsplash.com/license
